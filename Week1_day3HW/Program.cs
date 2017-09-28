@@ -40,22 +40,101 @@ namespace Week1_day3HW
             //}
 
             //#3 Writes whether a number is positive or negative
-            Console.WriteLine("Give me a number (whole or not!):");
-            double num = double.Parse(Console.ReadLine());
-            if(num > 0)
+            //Console.WriteLine("Give me a number (whole or not!):");
+            //double num = double.Parse(Console.ReadLine());
+            //if(num > 0)
+            //{
+            //    Console.WriteLine("This number is positive!");
+            //}
+            //else if(num < 0)
+            //{
+            //    Console.WriteLine("This number is negative!");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("This number is a zero!");
+            //}
+
+            //#4 Checks letter for vowel or consonant.
+            //Console.WriteLine("Give me a lowercase letter:");
+            //char letter = char.Parse(Console.ReadLine());
+
+            //if (letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u')
+            //{
+            //    Console.WriteLine("The letter " + "\"" + letter + "\"" + " is a vowel.");
+            //}
+            //else if (letter == 'y')
+            //{
+            //    Console.WriteLine("\"Y\" is a little funny.");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("The letter \"" + letter + "\" is NOT a vowel.");
+            //}
+
+            //#5 Of two integers, picks the biggest and prints it
+
+            //int firstNum;
+            //int secondNum;
+            //Console.WriteLine("Give me a number:");
+            //firstNum = int.Parse(Console.ReadLine());
+            //Console.WriteLine("And another:");
+            //secondNum = int.Parse(Console.ReadLine());
+
+            //if (firstNum > secondNum)
+            //{
+            //    Console.WriteLine(firstNum + " is the largest number.");
+            //}
+            //else if (firstNum < secondNum)
+            //{
+            //    Console.WriteLine(secondNum + " is the largest number.");
+            //}
+            //else
+            //{
+            //    Console.WriteLine(firstNum + " and " + secondNum + " are the same!");
+            //}
+
+
+            //#5a - Same as 5, but 3 numbers.
+
+            int firstNum;
+            int secondNum;
+            int thirdNum;
+            Console.WriteLine("Give me a number:");
+            firstNum = int.Parse(Console.ReadLine());
+            Console.WriteLine("And another:");
+            secondNum = int.Parse(Console.ReadLine());
+            Console.WriteLine("And one more:");
+            thirdNum = int.Parse(Console.ReadLine());
+
+            if (firstNum > secondNum)
             {
-                Console.WriteLine("This number is positive!");
-            }
-            else if(num < 0)
+                if (firstNum > thirdNum)
+                {
+                    Console.WriteLine(firstNum + " is the largest number.");
+                }
+                else
+                {
+                    Console.WriteLine(thirdNum + " is the largest number.");
+                }
+             }
+            else if (firstNum < secondNum)
             {
-                Console.WriteLine("This number is negative!");
+                if (secondNum > thirdNum)
+                {
+                    Console.WriteLine(secondNum + " is the largest number.");
+                }
+                else
+                {
+                    Console.WriteLine(thirdNum + " is the largest number.");
+                }
+                
             }
             else
             {
-                Console.WriteLine("This number is a zero!");
+                Console.WriteLine("At least two of those are the same!");
             }
 
-            
 
         }
     }
