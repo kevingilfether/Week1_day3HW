@@ -27,6 +27,19 @@ namespace Week1_day3HW
             //}
 
 
+            //#2 Tells me if a number is even or odd
+            //Console.WriteLine("Give me a whole number:");
+            //int num = int.Parse(Console.ReadLine());
+            //if(num % 2 == 0)
+            //{
+            //    Console.WriteLine(num + " is an even number.");
+            //}
+            //else
+            //{
+            //    Console.WriteLine(num + " is an odd number.");
+            //}
+
+
 
             
 
