@@ -97,45 +97,65 @@ namespace Week1_day3HW
 
             //#5a - Same as 5, but 3 numbers.
 
+            //int firstNum;
+            //int secondNum;
+            //int thirdNum;
+            //Console.WriteLine("Give me a number:");
+            //firstNum = int.Parse(Console.ReadLine());
+            //Console.WriteLine("And another:");
+            //secondNum = int.Parse(Console.ReadLine());
+            //Console.WriteLine("And one more:");
+            //thirdNum = int.Parse(Console.ReadLine());
+
+            //if (firstNum > secondNum)
+            //{
+            //    if (firstNum > thirdNum)
+            //    {
+            //        Console.WriteLine(firstNum + " is the largest number.");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine(thirdNum + " is the largest number.");
+            //    }
+            // }
+            //else if (firstNum < secondNum)
+            //{
+            //    if (secondNum > thirdNum)
+            //    {
+            //        Console.WriteLine(secondNum + " is the largest number.");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine(thirdNum + " is the largest number.");
+            //    }
+
+            //}
+            //else
+            //{
+            //    Console.WriteLine("At least two of those are the same!");
+            //}
+
+            //#6 Last for the night, calculates the mean of 4 integers!
+
             int firstNum;
             int secondNum;
             int thirdNum;
+            int fourthNum;
+
             Console.WriteLine("Give me a number:");
             firstNum = int.Parse(Console.ReadLine());
-            Console.WriteLine("And another:");
+            Console.WriteLine("Give me another:");
             secondNum = int.Parse(Console.ReadLine());
-            Console.WriteLine("And one more:");
+            Console.WriteLine("A third:");
             thirdNum = int.Parse(Console.ReadLine());
+            Console.WriteLine("A fourth:");
+            fourthNum = int.Parse(Console.ReadLine());
 
-            if (firstNum > secondNum)
-            {
-                if (firstNum > thirdNum)
-                {
-                    Console.WriteLine(firstNum + " is the largest number.");
-                }
-                else
-                {
-                    Console.WriteLine(thirdNum + " is the largest number.");
-                }
-             }
-            else if (firstNum < secondNum)
-            {
-                if (secondNum > thirdNum)
-                {
-                    Console.WriteLine(secondNum + " is the largest number.");
-                }
-                else
-                {
-                    Console.WriteLine(thirdNum + " is the largest number.");
-                }
-                
-            }
-            else
-            {
-                Console.WriteLine("At least two of those are the same!");
-            }
+            double total = firstNum + secondNum + thirdNum + fourthNum;
+            double mean = total / 4;
+            Console.WriteLine("The mean is " + mean);
 
-
+                        
         }
     }
 }
