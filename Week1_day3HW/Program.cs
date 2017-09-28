@@ -142,23 +142,26 @@ namespace Week1_day3HW
 
             //#6 Last for the night, calculates the mean of 4 integers!
 
-            //int firstNum;
-            //int secondNum;
-            //int thirdNum;
-            //int fourthNum;
+            int firstNum;
+            int secondNum;
+            int thirdNum;
+            int fourthNum;
 
-            //Console.WriteLine("Give me a number:");
-            //firstNum = int.Parse(Console.ReadLine());
-            //Console.WriteLine("Give me another:");
-            //secondNum = int.Parse(Console.ReadLine());
-            //Console.WriteLine("A third:");
-            //thirdNum = int.Parse(Console.ReadLine());
-            //Console.WriteLine("A fourth:");
-            //fourthNum = int.Parse(Console.ReadLine());
+            Console.WriteLine("Give me a whole number:");
+            firstNum = int.Parse(Console.ReadLine());
 
-            //double total = firstNum + secondNum + thirdNum + fourthNum;
-            //double mean = total / 4;
-            //Console.WriteLine("The mean is " + mean);
+            Console.WriteLine("Give me another:");
+            secondNum = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("A third:");
+            thirdNum = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("A fourth:");
+            fourthNum = int.Parse(Console.ReadLine());
+
+            double total = firstNum + secondNum + thirdNum + fourthNum;
+            double mean = total / 4;
+            Console.WriteLine("The mean is " + mean);
 
 
         }
