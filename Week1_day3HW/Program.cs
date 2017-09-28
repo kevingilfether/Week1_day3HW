@@ -74,25 +74,27 @@ namespace Week1_day3HW
 
             //#5 Of two integers, picks the biggest and prints it
 
-            //int firstNum;
-            //int secondNum;
-            //Console.WriteLine("Give me a number:");
-            //firstNum = int.Parse(Console.ReadLine());
-            //Console.WriteLine("And another:");
-            //secondNum = int.Parse(Console.ReadLine());
+            int firstNum;
+            int secondNum;
 
-            //if (firstNum > secondNum)
-            //{
-            //    Console.WriteLine(firstNum + " is the largest number.");
-            //}
-            //else if (firstNum < secondNum)
-            //{
-            //    Console.WriteLine(secondNum + " is the largest number.");
-            //}
-            //else
-            //{
-            //    Console.WriteLine(firstNum + " and " + secondNum + " are the same!");
-            //}
+            Console.WriteLine("Give me a number:");
+            firstNum = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("And another:");
+            secondNum = int.Parse(Console.ReadLine());
+
+            if (firstNum > secondNum)
+            {
+                Console.WriteLine(firstNum + " is the largest number.");
+            }
+            else if (firstNum < secondNum)
+            {
+                Console.WriteLine(secondNum + " is the largest number.");
+            }
+            else
+            {
+                Console.WriteLine(firstNum + " and " + secondNum + " are the same!");
+            }
 
 
             //#5a - Same as 5, but 3 numbers.
@@ -137,25 +139,25 @@ namespace Week1_day3HW
 
             //#6 Last for the night, calculates the mean of 4 integers!
 
-            int firstNum;
-            int secondNum;
-            int thirdNum;
-            int fourthNum;
+            //int firstNum;
+            //int secondNum;
+            //int thirdNum;
+            //int fourthNum;
 
-            Console.WriteLine("Give me a number:");
-            firstNum = int.Parse(Console.ReadLine());
-            Console.WriteLine("Give me another:");
-            secondNum = int.Parse(Console.ReadLine());
-            Console.WriteLine("A third:");
-            thirdNum = int.Parse(Console.ReadLine());
-            Console.WriteLine("A fourth:");
-            fourthNum = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Give me a number:");
+            //firstNum = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Give me another:");
+            //secondNum = int.Parse(Console.ReadLine());
+            //Console.WriteLine("A third:");
+            //thirdNum = int.Parse(Console.ReadLine());
+            //Console.WriteLine("A fourth:");
+            //fourthNum = int.Parse(Console.ReadLine());
 
-            double total = firstNum + secondNum + thirdNum + fourthNum;
-            double mean = total / 4;
-            Console.WriteLine("The mean is " + mean);
+            //double total = firstNum + secondNum + thirdNum + fourthNum;
+            //double mean = total / 4;
+            //Console.WriteLine("The mean is " + mean);
 
-                        
+
         }
     }
 }
