@@ -39,7 +39,21 @@ namespace Week1_day3HW
             //    Console.WriteLine(num + " is an odd number.");
             //}
 
-
+            //#3 Writes whether a number is positive or negative
+            Console.WriteLine("Give me a number (whole or not!):");
+            double num = double.Parse(Console.ReadLine());
+            if(num > 0)
+            {
+                Console.WriteLine("This number is positive!");
+            }
+            else if(num < 0)
+            {
+                Console.WriteLine("This number is negative!");
+            }
+            else
+            {
+                Console.WriteLine("This number is a zero!");
+            }
 
             
 
