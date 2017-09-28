@@ -74,27 +74,27 @@ namespace Week1_day3HW
 
             //#5 Of two integers, picks the biggest and prints it
 
-            int firstNum;
-            int secondNum;
+            //int firstNum;
+            //int secondNum;
 
-            Console.WriteLine("Give me a number:");
-            firstNum = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Give me a number:");
+            //firstNum = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("And another:");
-            secondNum = int.Parse(Console.ReadLine());
+            //Console.WriteLine("And another:");
+            //secondNum = int.Parse(Console.ReadLine());
 
-            if (firstNum > secondNum)
-            {
-                Console.WriteLine(firstNum + " is the largest number.");
-            }
-            else if (firstNum < secondNum)
-            {
-                Console.WriteLine(secondNum + " is the largest number.");
-            }
-            else
-            {
-                Console.WriteLine(firstNum + " and " + secondNum + " are the same!");
-            }
+            //if (firstNum > secondNum)
+            //{
+            //    Console.WriteLine(firstNum + " is the largest number.");
+            //}
+            //else if (firstNum < secondNum)
+            //{
+            //    Console.WriteLine(secondNum + " is the largest number.");
+            //}
+            //else
+            //{
+            //    Console.WriteLine(firstNum + " and " + secondNum + " are the same!");
+            //}
 
 
             //#5a - Same as 5, but 3 numbers.
@@ -102,10 +102,13 @@ namespace Week1_day3HW
             //int firstNum;
             //int secondNum;
             //int thirdNum;
+
             //Console.WriteLine("Give me a number:");
             //firstNum = int.Parse(Console.ReadLine());
+
             //Console.WriteLine("And another:");
             //secondNum = int.Parse(Console.ReadLine());
+
             //Console.WriteLine("And one more:");
             //thirdNum = int.Parse(Console.ReadLine());
 
@@ -119,7 +122,7 @@ namespace Week1_day3HW
             //    {
             //        Console.WriteLine(thirdNum + " is the largest number.");
             //    }
-            // }
+            //}
             //else if (firstNum < secondNum)
             //{
             //    if (secondNum > thirdNum)
